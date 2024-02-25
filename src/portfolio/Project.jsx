@@ -4,7 +4,7 @@ import age from '../Image/age.png'
 import tic from '../Image/tic.png'
 import netflix from '../Image/netflix.png'
 import jupiter from '../Image/jupiter.png'
-import portfolio from '../Image/portfolio.png'
+import hostel from '../Image/hostel.png'
 
 const Project = () => {
   useEffect(() => {
@@ -16,8 +16,8 @@ const Project = () => {
 
   const mainpros = [
     {
-      srcname: portfolio,
-      proroot: '#'
+      srcname: hostel,
+      proroot: 'https://hostel-hop.netlify.app/'
     },
     {
       srcname: jupiter,
